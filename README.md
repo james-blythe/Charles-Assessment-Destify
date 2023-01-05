@@ -1,24 +1,48 @@
-# cra-template-redux-typescript
+# Project Name
+Assessment from Destify.
+This project is a typescript application with React components and material ui. It implements data fetching using redux-saga.
 
-![build status](https://img.shields.io/github/workflow/status/reduxjs/cra-template-redux-typescript/Tests/master?style=flat-square)
+## Getting Started
 
-The official Redux+TS template for [Create React App](https://github.com/facebook/create-react-app).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-To use this template within your project, add `--template redux-typescript` when creating a new app.
+### Prerequisites
 
-For example:
+* [Node.js](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/en/)
 
-```sh
-npx create-react-app my-app --template redux-typescript
+### Installing
 
-# or
+Clone the repository:
 
-yarn create react-app my-app --template redux-typescript
+```bash
+git clone https://github.com/<repo_url>.git
 ```
 
-Cloning this repo pulls down the Redux template only; not a bundled and configured Create React App.
+Install dependencies:
 
-For more information, please refer to:
+```bash
+yarn add
+```
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+### Running
+
+To start the project run the following command:
+
+```bash
+yarn start
+```
+
+### Testing
+
+To run the tests:
+
+```bash
+yarn test
+```
+
+## Built With
+
+* [Typescript](https://www.typescriptlang.org/) - The language used
+* [Material UI](https://material-ui.com/) - The UI library used
+* [Redux Saga](https://redux-saga.js.org/) - For data fetching
